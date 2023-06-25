@@ -1,0 +1,34 @@
+
+
+
+
+.location {
+    display: flex;       
+  }
+  
+.frame {
+    border: 1px solid burlywood;
+    padding: 10px;         
+  }
+section{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    height: 500px;
+    padding: 50px;
+    vertical-align: top;
+}
+    
+.info{
+    display: inline-block;
+    margin-left: 50px;
+    font-size :19px;
+}
+main{
+    margin-top: 50px;
+    background-color:rgb(234, 234, 234);
+}
+aside{
+    display:inline-block ;
+    width: 69%;
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: SF mono;
+}
+div {
+  margin-top: 7px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+.info-role{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 120px;
+
+
+}
+.info-following{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 120px;
+
+}
+.button{
+    margin-top: 30px;
+    margin-left: 120px;
+
+}

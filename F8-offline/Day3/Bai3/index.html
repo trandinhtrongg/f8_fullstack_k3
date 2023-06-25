@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Bài 3</title>
+  </head>
+  <body>
+    <nav class="container">
+      <div>
+        <form action="" method="get">
+          <label for="name">User name:</label>
+          <input type="name" name="name" id="name" placeholder="" required />
+        </form>
+      </div>
+      <div>
+        <form action="" method="get">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder=""
+            required
+          />
+        </form>
+      </div>
+      <div>
+        <form action="" method="get">
+          <label for="city"
+            >City of <br />
+            Employment:</label
+          >
+          <input type="city" name="city" id="city" placeholder="" required />
+        </form>
+      </div>
+      <div>
+        <label for="server">Web server:</label>
+        <select name="server" id="server">
+          <option value="0">-Choose a server-</option>
+          <option value="1">Web</option>
+          <option value="2">Server</option>
+        </select>
+      </div>
+      <div class="role">
+        <label>
+          Please specify <br />
+          your role:</label
+        ><br />
+        <div class="info-role">
+          <label> <input type="radio" name="role" value="1" />Admin </label
+          ><br />
+          <label> <input type="radio" name="role" value="1" />Engineer </label
+          ><br />
+          <label> <input type="radio" name="role" value="1" />Manager </label
+          ><br />
+          <label> <input type="radio" name="role" value="1" />Guest </label>
+        </div>
+      </div>
+      <div class="following">
+        <label>
+          Single Sing-on <br />
+          to the following:</label
+        ><br>
+        <div class="info-following">
+          <label>
+            <input type="checkbox" name="single" value="0" /> Mail
+          </label><br>
+          <label>
+            <input type="checkbox" name="single" value="1" /> Payroll
+          </label><br>
+          <label>
+            <input type="checkbox" name="single" value="2" /> Self-service
+          </label>
+        </div>
+      </div>
+      <div class="button">
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+      </div>
+    </nav>
+  </body>
+</html>

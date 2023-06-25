@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1 class="heading-title">CONTACT US</h1>
+    <br />
+    <aside>
+      <div class="contact">
+        <h2>Contact Info</h2>
+        <a href="#">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>321 Awesome Street New York, NY 17022</p>
+        </a>
+        <a href="#">
+          <i class="fa-regular fa-envelope"></i>
+          <p>info@companyname.com</p>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-phone"></i>
+          <p>+1 800 123 1234</p>
+        </a>
+      </div>
+    </aside>
+    <main>
+      <form
+        action="https://api-gateway.fullstack.edu.vn/action_page.php"
+        method="get"
+        class="contact-form"
+      >
+        <h2>Having Any Query! Or Book an appointment</h2>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name"
+          autofocus
+          required
+        />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea
+          name="content"
+          cols="30"
+          rows="10"
+          placeholder="Message"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+  </body>
+</html>
