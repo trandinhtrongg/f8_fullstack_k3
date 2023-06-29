@@ -1,0 +1,38 @@
+.container{
+    text-align: center;
+        background-color: #334455;
+        border-radius: 10px;
+        padding: 25px 0 25px 30px;
+}
+.container:hover input{
+    background-color: #ddd;
+}
+.container h2  {
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+.container h2 strong {
+    color: #f7a205;
+    font-weight: 550;
+}
+.heading-text {
+    font-size: 17px;
+}
+
+.email{
+    font-size: 16px;
+    display: inline;
+    margin: 0 22px;
+    border-radius: 4px;
+    color: azure;
+    height: 30px;
+    min-width: 170px;
+    line-height: 56px;
+}
+.submit {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 20px;
+    background-color: #f8db35;
+}

@@ -1,0 +1,21 @@
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  width: 300px; /* Điều chỉnh kích thước container theo ý muốn */
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Ẩn ảnh hover ban đầu */
+  transition: opacity 0.3s ease; /* Thời gian và hiệu ứng chuyển đổi */
+}
+
+.image-container:hover .hover-image {
+  opacity: 1; /* Hiển thị ảnh hover khi hover vào container */
+}
