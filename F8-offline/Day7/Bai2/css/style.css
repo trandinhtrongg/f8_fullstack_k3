@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Asap', sans-serif;
+    width: 100%;
+}
+.banner {
+    background-image: url(../img/tap-doan-vingroup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    height: 390px;
+    margin: 0 auto;
+}
+.container .header {
+    height: 517px;
+    width: 202px;
+    position: absolute;
+    background-color: #fff;
+    left: 330px;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+.title {
+    position: absolute;
+    bottom: 475px;
+    left: 580px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.profile .profile-info {
+    display: flex;
+}
+.container .profile {
+    position: absolute;
+    display: flex;
+    bottom: 427px;
+    left: 575px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1rem;
+    column-gap: 50px;
+}
+.profile .profile-info span {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.nav {
+    height: 40px;
+}
+.container .nav .menu {
+    display: flex;
+    justify-content: end;
+    margin-right: 240px;
+}
+.container .nav .menu-item {
+    padding: 8px 16px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+.container .nav .menu-item a {
+    text-decoration: none;
+    color: #3f3424;
+    line-height: 3rem;
+}

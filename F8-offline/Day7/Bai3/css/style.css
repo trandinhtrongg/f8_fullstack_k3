@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@100;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Asap", sans-serif;
+}
+.city {
+  width: 100%;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0;
+}
+.container ul li {
+  display: inline-block;
+  width: 200px;
+  height: 58px;
+  background: #eee;
+  border-radius: 50px;
+  text-align: center;
+}
+.container ul li a {
+  font-weight: 500;
+  font-size: 19px;
+  color: black;
+  line-height: 30px;
+  text-decoration: none;
+}
+.container ul li span {
+  display: flex;
+  margin-left: 34px;
+}
+.city ul li:hover {
+  background-color: #ae7b36;
+  color: #ffff;
+}
+.products {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 390px;
+  height: 279px;
+  border-radius: 5px;
+}
+
+.location {
+  position: relative;
+  color: #fff;
+}
+
+.address-products {
+  position: absolute;
+  top: 26px;
+  left: 19px;
+}
+
+.sold {
+  position: absolute;
+  bottom: 30px;
+  left: 19px;
+  font-weight: 100;
+}
+
